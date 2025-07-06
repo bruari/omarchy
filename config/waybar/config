@@ -63,7 +63,7 @@
       "tooltip-format-disconnected": "Disconnected",
       "interval": 3,
       "nospacing": 1,
-      "on-click": "alacritty -e iwctl"
+      "on-click": "ghostty -e impala"
     },
     "battery": {
       "format": "{capacity}% {icon}",
@@ -112,14 +112,5 @@
         "balanced":     "󰊚",
         "performance":  "󰡴"
       }
-    },
-    "custom/dropbox": {
-      "format": "",
-      "on-click": "nautilus ~/Dropbox",
-      "exec": "dropbox-cli status",
-      "return-type": "text",
-      "interval": 5,
-      "tooltip": true,
-      "tooltip-format": "{}"
     }
 }
